@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+</head>
+<body>
+<form onsubmit="return false">
+    <label for="temp">Enter Temperature</label>
+    <input type="text" placeholder="" name="temp" id="converter">
+    <input type="radio" name="temptype" value="C">Celsius
+    <input type="radio" name="temptype" value="F">Farenheit
+    <!-- <input type="submit" name="submit" id="submit" > -->
+    <button id="submit" type="submit">Submit</button>
+    <button id="reset" name="reset">Reset</button>  
+</form>
+
+    <div id="output"></div>
+<script src="converter.js"></script>   
+</body>
+</html>
+
